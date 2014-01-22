@@ -1,0 +1,5 @@
+distelli/SimpleCSharpApp:
+  Exec:
+    - 'exec /usr/bin/mono bin/webserver.exe'
+  PkgInclude:
+    - ["release/webserver.exe", "bin/"]
