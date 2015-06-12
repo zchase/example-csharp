@@ -1,4 +1,4 @@
-bmcgehee/SimpleCSharpApp:
+<username>/SimpleCSharpApp:
   Env:
     - DOTNETDIR: %windir%\Microsoft.NET\Framework\v3.5
     - CSCEXE: %DOTNETDIR%\csc.exe
