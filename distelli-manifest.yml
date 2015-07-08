@@ -28,7 +28,7 @@
     # and deploying to Ubuntu
     # and may need to install mono-mcs
     # Unremark the following 2 lines
-    #- sudp apt-get -y update
+    #- sudo apt-get -y update
     #- sudo apt-get -y install mono-mcs
 
     # If you are compiling on deploy
