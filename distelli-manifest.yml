@@ -34,7 +34,7 @@ zchase/example-csharp:
     # If you are compiling on deploy
     # and deploying to 'Linux mono'?
     # Unremark the following to compile
-    #- mcs webserver.cs -out:release/webserver.exe
+    - mcs webserver.cs -out:release/webserver.exe
 
     # If you are compiling on deploy
     # and deploying to Windows?
@@ -52,7 +52,7 @@ zchase/example-csharp:
     # # Unremark the following 2 lines                 #
     # ##################################################
     #- sudo apt-get -y update
-    #- sudo apt-get -y install mono-runtime
+    - sudo apt-get -y install mono-runtime
 
     - echo "End PreInstall"
 
