@@ -54,7 +54,7 @@ zchase/example-csharp:
     # # Unremark the following 2 lines                 #
     # ##################################################
     - sudo apt-get -y update
-    - sudo apt-get -y install mono-runtime
+    - sudo apt-get -y install mono-runtime mono-complete
 
     - echo "End PreInstall"
 
