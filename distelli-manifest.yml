@@ -62,7 +62,7 @@ zchase/example-csharp:
 
     # Deploying to 'Linux mono'?
     # Unremark the following
-    - mono release/webserver.exe'
+    - mono release/webserver.exe
 
     # Deploying to Windows?
     # Unremark the following
