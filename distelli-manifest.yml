@@ -1,4 +1,4 @@
-<username>/SimpleCSharpApp:
+zchase/example-csharp:
   Env:
     - DOTNETDIR: %windir%\Microsoft.NET\Framework\v3.5
     - CSCEXE: %DOTNETDIR%\csc.exe
@@ -23,13 +23,13 @@
     # # * build_linux.sh for Linux                    #
     # # * build_windows.bat for Windows               #
     # #################################################
-   
+
     # If you are compiling on deploy
     # and deploying to Ubuntu
     # and may need to install mono-mcs
     # Unremark the following 2 lines
-    #- sudo apt-get -y update
-    #- sudo apt-get -y install mono-mcs
+    - sudo apt-get -y update
+    - sudo apt-get -y install mono-mcs
 
     # If you are compiling on deploy
     # and deploying to 'Linux mono'?
@@ -40,7 +40,7 @@
     # and deploying to Windows?
     # Unremark the following to compile
     #- %CSCEXE% webserver.cs -out:release\webserver.exe
-   
+
     # ##################################################
     # # End of compile code on deploy section          #
     # ##################################################
@@ -53,7 +53,7 @@
     # ##################################################
     #- sudo apt-get -y update
     #- sudo apt-get -y install mono-runtime
-    
+
     - echo "End PreInstall"
 
   Exec:
@@ -61,7 +61,7 @@
 
     # Deploying to 'Linux mono'?
     # Unremark the following
-    #- mono release/webserver.exe'
+    - mono release/webserver.exe'
 
     # Deploying to Windows?
     # Unremark the following
