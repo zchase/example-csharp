@@ -1,7 +1,5 @@
 zchase/example-csharp:
-  Env:
-    - DOTNETDIR: '%windir%\Microsoft.NET\Framework\v3.5'
-    - CSCEXE: '%DOTNETDIR%\csc.exe'
+
   PkgInclude:
     - webserver.cs
     - release\
