@@ -61,7 +61,6 @@ zchase/example-csharp:
     - echo "End PreInstall"
 
   Exec:
-    - echo "Begin Exec"
 
     # Deploying to 'Linux mono'?
     # Unremark the following
