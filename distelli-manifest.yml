@@ -6,6 +6,7 @@ zchase/example-csharp:
     - webserver.cs
     - release\
   PreBuild:
+    - mkdir release
     - sudo apt-get update
     - sudo apt-get install mono-mcs -y
   Build:
