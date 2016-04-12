@@ -26,7 +26,7 @@ zchase/example-csharp:
     # # * build_windows.bat for Windows               #
     # #################################################
 
-    # If you are compiling on deploy
+    # If you are compiling on deploy. Build test change
     # and deploying to Ubuntu
     # and may need to install mono-mcs
     # Unremark the following 2 lines
@@ -54,7 +54,7 @@ zchase/example-csharp:
     # # Unremark the following 2 lines                 #
     # ##################################################
     - sudo apt-get -y update
-    - sudo apt-get -y install mono-runtime mono-complete
+    - sudo apt-get -y install mono-runtime mono-complete 
 
     - echo "End PreInstall"
 
